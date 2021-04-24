@@ -1,0 +1,468 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*================================
+nav section code start from here
+==================================*/
+header{
+	position: absolute;
+	border-bottom: 1px solid #3b2b3b;
+}
+.nav-section{
+	width: 100%;
+	padding: 10px 0px;
+}
+.nav-item{
+	margin-right: 20px;
+	
+}
+
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: white !important;
+	position: relative;
+	margin: 0px !important;
+	padding: 0px !important;
+	
+}
+.nav-link::before{
+	background: transparent;
+	height: 3px;
+	width: 0px;
+	content: '';
+	position: absolute;
+	text-align: center;
+}
+
+
+.nav-link:hover::before{
+	background: white;
+    height: 3px;
+    width: 100%;
+    text-align: center;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+
+
+
+.form-control{
+	border-radius: 1.25rem !important;
+}
+
+.btn-outline-success{
+	margin-left: -48px !important;
+	border: none;
+	color: black;
+}
+.btn-outline-success:hover{
+	background: #8824cd;
+	color: white;
+	border-radius: 50%;
+}
+.form-control button{
+	margin: 0px;
+}
+
+
+/*================================
+nav section code start from here
+==================================*/
+
+.banner-sec{
+	width: 100%;
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	
+}
+
+.banner-height{
+	height: 100vh;
+	vertical-align: middle;
+	display: table-cell;
+
+}
+
+
+.banner-left{
+	text-align: right;
+}
+.banner-left h1{
+	color: white;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.banner-left button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #8824cd;
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+
+.banner-left button:hover{
+	background: transparent;
+	transition: 1.2s;
+}
+
+.banner-left p{
+	color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*================================
+nav section code start from here
+==================================*/
+
+.details-sec{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2e3b4e;
+	color: white;
+	position: relative;
+}
+
+.left-det{
+	padding: 30px;
+}
+.up-details{
+	margin-bottom: 60px;
+}
+
+.details-sec h6{
+	margin-bottom: 26px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.details-sec p{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.floated-box{
+	height: 70px;
+    width: 70px;
+    transform: rotate(45deg);
+    background: #2e3b4e;
+    position: absolute;
+    bottom: -25px;
+    /*left: 640px;*/
+    left: 47%;
+    border-radius: 39px;
+}
+
+/*================================
+pink section code start from here
+==================================*/
+
+.pink-sec{
+	width: 100%;
+	background: url(../img/pink.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+.pink-text{
+	padding: 80px 0px;
+}
+
+.pink-text h1{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+}
+
+.pink-text p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	width: 35%;
+    margin: auto;
+}
+
+.pink-text button{
+	padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #d54c63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.pink-text button:hover{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	transition: 0.3s;
+}
+
+
+/*================================
+writing section code start from here
+==================================*/
+.writing-sec{
+	width: 100%;
+	position: relative;
+}
+.writing-img{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.writing-img img{
+	width: 84%;
+}
+
+.writing-sec .col-md-4{
+	padding: 0px;
+}
+
+.writing-sec .col-md-8{
+	padding: 70px 0px 60px 80px;
+}
+
+.write-sec{
+
+}
+
+.write-sec h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.write-sec p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	padding: 0px !important;
+	margin-right: 100px;
+}
+.p-1{
+	margin-bottom: 22px;
+	margin-top: 10px;
+}
+
+/*================================
+exp-sec section code start from here
+==================================*/
+
+.exp-sec{
+	width: 100%;
+	background: url(../img/sat-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+
+}
+.bg-overlay{
+	margin-top: 40px;
+	background: rgba(76,31,92,0.7); 
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.exp-content{
+	margin-top: 80px;
+	z-index: 9999;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.exp-content h1{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 16px;
+}
+
+.exp-content p{
+	color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 64%;
+    margin: auto;
+}
+.exp-content button{
+	padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    background: #8824cd;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid white;
+}
+
+.exp-content button:hover{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	transition: 0.3s;
+}
+
+
+/*================================
+food section code start from here
+==================================*/
+
+.food-sec{
+	width: 100%;
+	background: url(../img/food.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.food-sec .col-md-6{
+	margin: 300px 0px 48px 0px;
+}
+
+.food-sec h4{
+	color: white;
+    width: 115px;
+    border: 1px solid white;
+    padding: 7px 12px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.food-sec h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.food-sec-author p{
+	color: white;
+    padding: 0px;
+    margin-left: -36px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+
+.food-sec-author img{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+/*================================
+writing-sec-2 section code start from here
+==================================*/
+
+
+.writing-sec-2{
+	width: 100%;
+	position: relative;
+}
+.writing-img-2{
+	
+}
+.writing-img-2 img{
+	width: 40%;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.writing-sec-2 .col-md-4{
+	padding: 0px;
+}
+
+.writing-sec-2 .col-md-8{
+	padding: 70px 57px 60px 0px;
+}
+
+.write-sec-2{
+
+}
+
+.write-sec-2 h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.write-sec-2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	padding: 0px !important;
+	margin-right: 100px;
+}
+.p-2{
+	margin-bottom: 22px;
+	margin-top: 10px;
+}
+
+
+/*================================
+footer section code start from here
+==================================*/
+
+.footer{
+	padding: 30px 0px;
+	background: #2e3b4e;
+	text-align: center;
+	z-index: 9;
+}
+
+.footer p{
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;*/
